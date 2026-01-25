@@ -1,0 +1,47 @@
+📘 Encapsulation – Notes
+🔹 Definition
+
+Encapsulation is the OOP principle of wrapping data (variables) and methods (functions) into a single unit (class) and restricting direct access to data to ensure controlled modification.
+
+🔹 Purpose
+
+Protects data from unauthorized access
+
+Ensains data integrity through validation
+
+Improves code maintainability
+
+Hides internal implementation details
+
+
+🔹 How It Is Achieved
+
+Declare class variables as private
+
+Provide public getter and setter methods
+
+Use access modifiers (private, public, protected, default)
+
+
+🔹 Key Features
+
+Supports data hiding
+
+Provides controlled access
+
+Prevents accidental data modification
+
+Increases program security
+
+Reduces system complexity
+
+
+🔹 Real-World Example
+
+ATM Machine
+
+Cash inside ATM → private data
+
+Buttons on ATM → public methods
+
+User cannot directly access cash
