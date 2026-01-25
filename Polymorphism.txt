@@ -1,0 +1,57 @@
+📘 Polymorphism in Java – Quality Notes
+🔹 Definition
+
+Polymorphism means “one name, many forms”.
+In Java, it allows the same method or object reference to behave differently based on the actual object type.
+
+🔹 Types of Polymorphism
+1) Compile-Time Polymorphism (Static Binding)
+
+✔ Achieved using Method Overloading
+
+2) Run-Time Polymorphism (Dynamic Binding)
+
+✔ Achieved using Method Overriding
+
+.
+
+📘 Compile-Time Polymorphism – Quality Notes
+🔹 Definition
+
+Compile-time polymorphism is the ability of a class to have multiple methods with the same name but different parameters, where the method call is resolved at compile time.
+
+It is also called Static Polymorphism or Method Overloading.
+
+🔹 How It Is Achieved
+
+Through Method Overloading
+
+Same method name
+
+Different parameter list (number, type, or order)
+
+
+
+📘 Run-Time Polymorphism – Quality Notes
+🔹 Definition
+
+Run-time polymorphism is the ability of a parent class reference to refer to a child class object, where the method to be executed is decided at runtime instead of compile time.
+
+It is also known as Dynamic Method Dispatch.
+
+🔹 How It Is Achieved
+
+Through Method Overriding
+
+Requires Inheritance
+
+Uses Parent class reference → Child class object
+
+
+| Feature      | Compile-Time       | Run-Time          |
+| ------------ | ------------------ | ----------------- |
+| Achieved by  | Method Overloading | Method Overriding |
+| Binding Time | Compile Time       | Runtime           |
+| Flexibility  | Less               | More              |
+
+
