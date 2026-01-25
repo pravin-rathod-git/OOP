@@ -1,0 +1,85 @@
+
+📘 Abstraction –  Notes
+🔹 Definition
+
+Abstraction is the OOP principle of hiding implementation details and exposing only essential features to the user.
+
+It focuses on what an object does instead of how it does it.
+
+🔹 Purpose
+
+Reduces complexity
+
+Hides unnecessary internal details
+
+Improves code readability
+
+Enhances maintainability
+
+Supports loose coupling
+
+🔹 How It Is Achieved in Java
+
+Abstract Classes
+
+Interfaces
+
+🔹 Abstract Class
+
+Declared using abstract keyword
+
+Can contain abstract methods (no body)
+
+Can also contain concrete methods (with body)
+
+Cannot be instantiated directly
+
+abstract class Animal {
+    abstract void makeSound();
+}
+
+🔹 Interface
+
+100% abstraction (before Java 8)
+
+Contains only abstract methods
+
+Implemented using implements keyword
+
+interface Shape {
+    void draw();
+}
+
+🔹 Key Features
+
+✔ Hides implementation details
+✔ Exposes only required functionality
+✔ Improves flexibility
+✔ Promotes reusability
+✔ Supports polymorphism
+
+🔹 Real-World Example
+
+Car Driving
+
+You use steering, accelerator, brake
+
+You don’t need to know engine internals
+
+🔹 Advantages
+
+Easier system design
+
+Better code organization
+
+Simplifies large programs
+
+Increases security
+
+
+
+| Feature     | Encapsulation    | Abstraction                |
+| ----------- | ---------------- | -------------------------- |
+| Focus       | Data hiding      | Implementation hiding      |
+| Achieved by | Access modifiers | Abstract class & interface |
+| Purpose     | Protect data     | Reduce complexity          |

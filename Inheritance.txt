@@ -1,0 +1,70 @@
+🔹 Definition
+
+Inheritance is an OOP principle where one class (child/subclass) acquires properties and behaviors of another class (parent/superclass).
+
+It promotes code reusability and hierarchical relationships.
+
+🔹 Syntax
+class Child extends Parent {
+    // child class code
+}
+
+| Type         | Supported with Classes | Example                        |
+| ------------ | ---------------------- | ------------------------------ |
+| Single       | ✅ Yes                  | One parent → one child         |
+| Multilevel   | ✅ Yes                  | Parent → child → grandchild    |
+| Hierarchical | ✅ Yes                  | One parent → multiple children |
+| Multiple     | ❌ Not with classes     | Achieved using Interfaces      |
+| Hybrid       | ❌ Not directly         | Combination using Interfaces   |
+
+
+🔹 Why Java Doesn’t Support Multiple Inheritance with Classes
+
+To avoid the Diamond Problem (method ambiguity when two parent classes have same method).
+
+🔹 Achieving Multiple Inheritance
+
+Java uses Interfaces to support multiple inheritance.
+
+A class can implement multiple interfaces.
+
+🔹 Key Features
+
+✔ Promotes code reusability
+✔ Reduces code redundancy
+✔ Establishes parent-child relationship
+✔ Supports method overriding
+✔ Enables runtime polymorphism
+
+🔹 Example
+class Animal {
+    void eat() { }
+}
+
+class Dog extends Animal {
+    void bark() { }
+}
+
+🔹 Advantages
+
+Faster development
+
+Easier maintenance
+
+Improved scalability
+
+Better code organization
+
+🔹 Disadvantages
+
+Tight coupling between parent and child
+
+Changes in parent may affect child
+
+🔹 Important Keywords
+
+extends → for class inheritance
+
+implements → for interface inheritance
+
+super → access parent class members
