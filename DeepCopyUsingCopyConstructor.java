@@ -1,3 +1,15 @@
+// 🔹 Deep Copy using Copy Constructor
+// 📌 Definition
+
+// In deep copy, the copy constructor:
+
+// Copies primitive data
+
+// Creates new objects for all referenced objects
+
+// So the copied object is fully independent.
+
+
 class Address {
     String city;
 
